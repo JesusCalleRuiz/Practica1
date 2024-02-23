@@ -181,7 +181,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-left: 800px;
+  align-self: self-end;
   margin-top: -200px;
 }
 .baile1{
