@@ -1,0 +1,376 @@
+
+
+button {
+  color: inherit;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+img,
+svg {
+  display: block;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji","Comic Sans";
+}
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.my-6 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.my-4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-8 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.bg-\[\#86efac\] {
+  background-color: #86efac;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-1 {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.border-gray-500 {
+  border-color: #6b7280;
+}
+.bg-white {
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+.gap-8 {
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.max-w-screen-md {
+  max-width: 768px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.border-2 {
+  border-width: 2px;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+body {
+  background-image: url(./fondogif2.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Comic Sans', sans-serif;
+  margin: 0;
+  height: 200vh;
+ 
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+ 
+}
+
+.caja {
+  
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('./rayos2.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-self: center;
+  animation: rotate 0.5s linear; 
+  margin-top: -650px;
+}
+
+.welcome{
+  width: 500px;
+  height: 200px;
+  background-image: url('./bienvenidos.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-left: 0px;
+}
+
+.welcome2{
+  width: 450px;
+  height: 200px;
+  background-image: url('./bienvenidos2.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-left: 800px;
+  margin-top: -200px;
+}
+.baile1{
+  width: 20px;
+  height: 60px;
+  background-image: url('./baile1.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-bottom: -200px;
+  margin-top: 50px;
+}
+.boton2{
+  width: 200px;
+  height: 200px;
+  background-image: url('./muerte.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-self: center; 
+  text-align: center;
+  color: transparent;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  transition: background-image 2s ease;
+  z-index: 2;
+  te
+}
+
+.boton2:hover {
+  background-image: url('./galleta.png');
+}
+
+.galleta1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.galleta1 img {
+  max-width: 300%;
+  max-height: 300%;
+}
+
+#galleta:target {
+  display: flex;
+}
+
+.boton1{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-image: url('./botonazul.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-bottom: 0px;
+  margin-top: -175px;
+  animation: rotate 5s linear infinite; 
+  z-index: 2;
+  transition: background-image 2s ease;
+}
+
+.boton1:hover {
+  background-image: url('./botonrojo.png');
+}
+
+.baile3{
+  width: 40px;
+  height: 40px;
+  background-image: url('./baile3.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-bottom: -150px;
+  margin-top: 50px;
+  margin-left: 420px;
+
+}
+.baile2{
+  width: 20px;
+  height: 60px;
+  background-image: url('./baile4.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-bottom: -200px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.baile4{
+  width: 50px;
+  height: 60px;
+  background-image: url('./baile5.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-bottom: -160px;
+  margin-top: 0px;
+  margin-right: 250px;
+}
+.baile5{
+  width: 50px;
+  height: 60px;
+  background-image: url('./baile6.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-bottom: -160px;
+  margin-top: 0px;
+  margin-right: 430px;
+}
+.explosion{
+  width: 1000px;
+  height: 1000px;
+  text-align: center;
+  background-image: url('./Nuke_animation.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  color: #fff; 
+  align-self: center; 
+  margin-top: -300px;
+  animation: fadeOut 5s forwards;
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+  
+
+
+
+.rotate {
+  transform: rotate(360deg);
+}
+
+.aviso{
+  width: 300px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size:x-large;
+}
+
+h3 {
+  font-size: 60px; 
+  text-shadow:
+    -3px -3px 0 #000,  
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+  color: #b10101;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
